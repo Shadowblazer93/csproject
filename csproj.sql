@@ -18,6 +18,9 @@
 --
 -- Table structure for table `rooms`
 --
+DROP DATABASE IF EXISTS `csproj`;
+CREATE DATABASE `csproj`;
+USE `csproj`;
 
 DROP TABLE IF EXISTS `rooms`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
